@@ -19,6 +19,7 @@
 using namespace std;
 #define SIZE 1005
 int road[SIZE];
+
 int FindRoot(int x)
 {
 	if (road[x] == -1)
